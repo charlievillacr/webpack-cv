@@ -23,7 +23,7 @@
 19. -D significa --save-dev
 20. -E significa --save-exact
 21. Crear index.js
-22. Hola mundo
+22. Hola mundo: console.log('Hello')
 23. Crear index.html
 24. html:5
 25. npm install webpack-cli --save-dev --save-exact
@@ -31,3 +31,6 @@
 27. npx webpack --entry ./index.js --output ./bundle.js
 28. falta opción 'mode', --mode development/production
 29. npx webpack --entry ./index.js --output ./bundle.js --mode development
+30. Crear webpack.config.js
+31. Common JS 
+32. const path = require('path')
