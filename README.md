@@ -27,4 +27,7 @@
 23. Crear index.html
 24. html:5
 25. npm install webpack-cli --save-dev --save-exact
-26. CLI = Command line interface
+26. webpack-cli = Command line interface
+27. npx webpack --entry ./index.js --output ./bundle.js
+28. falta opción 'mode', --mode development/production
+29. npx webpack --entry ./index.js --output ./bundle.js --mode development
