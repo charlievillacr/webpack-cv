@@ -1,7 +1,7 @@
-const path = requires('path')
+const path = require('path')
 
 module.exports = {
-    entry: path.revolve(__dirname,'index.js'),
+    entry: path.resolve(__dirname,'index.js'),
     mode: 'development',
     output: {
         path: path.resolve(__dirname, 'dist'),
