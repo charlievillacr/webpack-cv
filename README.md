@@ -18,3 +18,13 @@
 14. "dependencies" = Core dependencies
 15. npm install webpack --save-dev --save-exact
 16. Guardar como "dev" dependencies
+17. npm i -D -E webpack@4.32.2
+18. i significa install
+19. -D significa --save-dev
+20. -E significa --save-exact
+21. Crear index.js
+22. Hola mundo
+23. Crear index.html
+24. html:5
+25. npm install webpack-cli --save-dev --save-exact
+26. CLI = Command line interface
